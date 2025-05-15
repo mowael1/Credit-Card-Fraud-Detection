@@ -1,32 +1,23 @@
 # **Credit Card Fraud Detection 🚀**  
 
-## **Table of Contents**
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Project Goals](#project-goals)
-- [Models Implemented](#models-implemented)
-  - [Logistic Regression](#1️⃣-logistic-regression)
-  - [Random Forest Classifier](#2️⃣-random-forest-classifier)
-  - [Voting Classifier (Ensemble)](#3️⃣-voting-classifier-ensemble)
-  - [XGBoost Classifier](#4️⃣-xgboost-classifier)
-- [Effect of Resampling Techniques on Performance](#effect-of-resampling-techniques-on-performance)
-  - [No Resampling (Original Data)](#1️⃣-no-resampling-original-data)
-  - [SMOTE (Synthetic Minority Over-Sampling Technique)](#2️⃣-smote-synthetic-minority-over-sampling-technique)
-  - [Random Undersampling](#3️⃣-random-undersampling)
-- [Performance Metrics](#performance-metrics)
-- [Observations & Insights](#observations--insights)
-  - [Overall Model Ranking](#1-overall-model-ranking)
-  - [Effect of Threshold Optimization](#2-effect-of-threshold-optimization)
-  - [Undersampling vs. SMOTE vs. No Sampling](#3-undersampling-vs-smote-vs-no-sampling)
-  - [Precision–Recall Trade-Off](#4-precision–recall-trade-off)
-  - [Key Practical Insights](#5-key-practical-insights)
-- [How to Run the Project](#how-to-run-the-project)
+![Fraud Detection](Credit-Card-Fraud-Detection.png)
 
-## **Project Overview**
-This project focuses on detecting fraudulent transactions using **machine learning models**. Given the highly **imbalanced dataset**, the objective is to **build and optimize classifiers** to maximize the **F1-score** while considering **PR-AUC** as a secondary evaluation metric.
+## **Project Overview 🧐**
 
-## **Dataset**
-- The dataset comes from **Kaggle** but has been preprocessed for training.  
+This project focuses on building and evaluateing different classification models to identify fraudulent credit card transactions. The dataset is **highly imbalanced**, making it a perfect scenario for experimenting with different resampling and ensemble techniques.
+
+### **Goals 🎯**
+  - Handle class imbalance effectively using SMOTE and undersampling techniques.
+  - Train and compare multiple models.
+  - Perform extensive exploratory data analysis (EDA).
+  - Apply feature engineering and scaling techniques.
+  - Focus on maximizing recall to reduce false negatives.
+
+
+
+## **Dataset 📂**
+- **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
 - It consists of **anonymized features**, with two known attributes: **transaction time** and **amount**.  
 - The dataset has an **extremely low percentage of fraud cases (<1%)**, making handling class imbalance a critical task.
 - Download data from [here](https://drive.google.com/drive/folders/13ZD3GWTiAi7J-VTBvJdHkVF8uo_kc7li?usp=drive_link)  
