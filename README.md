@@ -1,4 +1,4 @@
-# **Credit Card Fraud Detection 🚀**  
+# **🦹‍♂️ Credit Card Fraud Detection 💳**  
 
 <!-- ![Fraud Detection](Credit-Card-Fraud-Detection.png) -->
 <p align="center">
