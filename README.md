@@ -1,7 +1,10 @@
 # **Credit Card Fraud Detection 🚀**  
 
 <!-- ![Fraud Detection](Credit-Card-Fraud-Detection.png) -->
-<img src="./Credit-Card-Fraud-Detection.png" alt="Image" style="width: 95%;">
+<p align="center">
+  <img src="./Credit-Card-Fraud-Detection.png" alt="Image" style="width: 100%;">
+</p>
+
 
 ## **1. Project Overview 🧐**
 
