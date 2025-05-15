@@ -7,8 +7,7 @@
 
 
 ## **1. Project Overview 🧐**
-
-This project focuses on building and evaluateing different classification models to identify fraudulent credit card transactions. The dataset is **highly imbalanced**, making it a perfect scenario for experimenting with different resampling and ensemble techniques.
+This project focuses on building and evaluating different machine learning classification models to detect fraudulent credit card transactions. Credit card fraud is a critical issue in the financial industry, causing significant financial losses and damaging customer trust. Detecting fraud effectively is challenging because fraudulent transactions are extremely rare compared to legitimate ones, resulting in a highly imbalanced dataset.
 
 ## **2. Goals 🎯**
   - Handle class imbalance effectively using SMOTE and undersampling techniques.
