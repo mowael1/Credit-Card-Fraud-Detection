@@ -1,12 +1,13 @@
 # **Credit Card Fraud Detection 🚀**  
 
-![Fraud Detection](Credit-Card-Fraud-Detection.png)
+<!-- ![Fraud Detection](Credit-Card-Fraud-Detection.png) -->
+<img src="./Credit-Card-Fraud-Detection.png" alt="Image" style="width: 95%;">
 
-## **Project Overview 🧐**
+## **1. Project Overview 🧐**
 
 This project focuses on building and evaluateing different classification models to identify fraudulent credit card transactions. The dataset is **highly imbalanced**, making it a perfect scenario for experimenting with different resampling and ensemble techniques.
 
-### **Goals 🎯**
+## **2. Goals 🎯**
   - Handle class imbalance effectively using SMOTE and undersampling techniques.
   - Train and compare multiple models.
   - Perform extensive exploratory data analysis (EDA).
@@ -14,21 +15,17 @@ This project focuses on building and evaluateing different classification models
   - Focus on maximizing recall to reduce false negatives.
 
 
+## **3. Dataset 📂**
 
-## **Dataset 📂**
 - **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+- **Size:** The dataset contains 284,807 transactions.  
+- **Duration:** The dataset contains transactions made over a period of two days.
+- **Features:**
+  - 28 anonymized PCA features: V1 to V28.
+  - Time and Amount.
+  - Target class: 0 (legit), 1 (fraud).
 
-- It consists of **anonymized features**, with two known attributes: **transaction time** and **amount**.  
-- The dataset has an **extremely low percentage of fraud cases (<1%)**, making handling class imbalance a critical task.
-- Download data from [here](https://drive.google.com/drive/folders/13ZD3GWTiAi7J-VTBvJdHkVF8uo_kc7li?usp=drive_link)  
-
-## **Project Goals**
-- **Build models** for fraud detection.  
-- **Address class imbalance** using techniques like **SMOTE, RandomOverSampler, and RandomUnderSampler**.  
-- **Optimize hyperparameters** using **Grid Search** and **RandomizedSearchCV** to find the best model parameters.  
-- **Compare different classification models** using **confusion matrices** and **PR-AUC curves**.  
-- **Evaluate performance with different resampling techniques (SMOTE and Undersampling)**.  
-- **Save the best-performing model** as `model.pkl` for further evaluation.  
+> Note: Only 0.17% of the transactions are fraud, creating a severe class imbalance. This makes fraud detection especially challenging and necessitates the use of techniques such as SMOTE and undersampling to ensure models are trained effectively on minority class instances.
 
 ---
 
