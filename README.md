@@ -29,12 +29,22 @@ This project focuses on building and evaluating different machine learning class
 > Note: Only 0.17% of the transactions are fraud, creating a severe class imbalance. This makes fraud detection especially challenging and necessitates the use of techniques such as SMOTE and undersampling to ensure models are trained effectively on minority class instances.
 
 
-## **4. Models Implemented**
+## **4. Models Implemented 🛠**
 Trained and evaluated the following models:
   - Logistic Regression.
   - Decision Tree.
   - Random Forest.
   - KNN.
   - XGBoost.
+
+
+## **5. Evaluation Metrics 📈**
+We used the following metrics for model performance:
+  - Precision.
+  - Recall
+  - F1-score
+  - PR Curve
+
+> Given the nature of the problem, Recall was prioritized to ensure that as many fraudulent transactions as possible are detected. False negatives (fraud cases predicted as legitimate) can be very costly and damaging.
 
 ---
